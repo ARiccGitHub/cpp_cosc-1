@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------------------------------------------------------
 
 
-This respiratory is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class at Laramie County Community College.
+This repository is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class at Laramie County Community College.
 Related links:
 https://www.lccc.wy.edu
 https://lccc.wy.edu/pathways/sciTechEngMath/computerScienceProgram/index.aspx
