@@ -1,6 +1,6 @@
-------------------------------------------------------------------------------------------------------------------------------------------	
-				                          c++ Computer Science – 1
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------	
+				              c++ Computer Science – 1
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 This respiratory is a collection of c++ program assignments from COSC 1030 - Computer Science-1 class at Laramie County Community College.
@@ -8,30 +8,29 @@ Related links:
 https://www.lccc.wy.edu
 https://lccc.wy.edu/pathways/sciTechEngMath/computerScienceProgram/index.aspx
 
-------------------------------------------------------------------------------------------------------------------------------------------
-
+-----------------------------------------------------------------------------------------------------------------------------
 COSC 1030 – Computer Science 1
 Professor: David Durbin
 Fall Semester - 2022
 Student: Alejandro (Alex) Ricciardi
 
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 Map description:
 The programs are stored in folders named after the corresponding assignment; folders can contain one or more programs. 
 The folder’s names number that precedes the assignment name is a chronologic reference, 
 with the letter ‘12’ representing the oldest assignment, containing the first assignment.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 Requirement:
 c++ 11 or later
 I used MS Visiual Studio IDE to creat my programs
 
 
-------------------------------------------------------------------------------------------------------------------------------------------
-										Assignements
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+					           Assignements
+-----------------------------------------------------------------------------------------------------------------------------
 
 ----------------
 7_array_vector
@@ -98,7 +97,7 @@ Larger programs with longer and more complex loops or conditionals would need mo
 and comments for functions as well. 
 Functions should have at least a minimal comment detailing what the purpose of the function is.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 ----------------
 8_functions
@@ -148,7 +147,7 @@ INPUT VALIDATION:
 Do not accept a value lower than 1 for the number of rooms; all rooms must have at least 85 square feet of wall space to be painted. 
 The average cost of the paint is $32.50 per gallon, do not accept values lower 75% of that price or greater than 1.25 times that price. 
 
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 ----------------
 9_loops
@@ -182,7 +181,7 @@ The program should use a do-while loop that repeats until the user guesses the n
 The program should also employ a while loop that keeps track of the number of guesses made by the user and, 
 once the user guesses the number correctly, displays the number of guesses the user made.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 ----------------
 10_rng_and_you
@@ -217,7 +216,7 @@ Yes, it will be a long program. Copy/Paste is your friend (make sure the code wo
 4. Have a good weekend.
 5. You can use loops if you want.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 ----------------
 11_conditionals
@@ -240,7 +239,7 @@ take screen captures of BOTH sets of results! (You should be asking the user for
 
 Package your screen captures, flowchart and .cpp file into a zipped folder and turn that in.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 ----------------
 12_math
@@ -284,4 +283,4 @@ Total Amount Paid:                 $ 11957.15
 DO NOT use the same numbers I did!  
 When finished, take a screen capture of your output and submit both the screen capture and your .cpp file in a zipped folder.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
