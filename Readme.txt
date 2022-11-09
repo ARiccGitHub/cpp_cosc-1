@@ -31,6 +31,152 @@ I used MS Visiual Studio IDE to creat my programs
 					           Assignements
 -----------------------------------------------------------------------------------------------------------------------------
 
+---------------------------------------
+4_us_presidents_sorting_searching_pt-2
+---------------------------------------
+
+President of the United States Information Dump
+
+Using the link below to an external site. website, record information on past U.S. 
+Presidents into a set of arrays (you may also use vectors, but they are more difficult to sort).
+https://www.whitehouse.gov/about-the-white-house/presidents/
+
+- potus_Last_Name (string): The President's last name. <- This is what you will sort by.
+- potus_First_Name (string): The President's first name. <- Do NOT sort by this. 
+  DO remember to include this when displaying the names. 
+  If a middle initial is needed it should go here. (George H. W. Bush vs. George W. Bush)
+- potus_Terms (int): The number of terms the President served.
+- potus_FirstYear (int): The year the President started serving his term in office.  <- Note that this is NOT the same as the year the President was elected. 
+  President Biden was elected in 2020, but his term started in 2021. (<- Most recent example.)
+
+All of this information should be hard coded, there should be no user input up to this point.
+
+You will need to have options for the user to do the following:
+
+Display the list of Presidents, in order, first to most recent, in groups of 10.  i.e. Display Washington through Tyler, 
+pause for user to hit a key, then display Polk through Garfield, etc. Yes, you need to list Cleveland twice.
+Sort the list of names in Alphabetical order and display it in groups of 10 Presidents at a time. Again, 
+display 1 through 10, wait for key press, then 11 through 20, etc. (i.e. Quincy-Adams should be sorted as a 'Q' not as an 'A'.)
+Show only Presidents who served 1 term.
+Show only Presidents who served 2 or more terms. (Yes, we had one 4 term President. (Yes, you should know that by now if you are from the U.S.))
+Show a list of the Presidents and the year they started serving their term. Again, you need to show Cleveland twice.
+You need to use functions for each of these options. At least one function for each one. That's five different functions just for the displays, 
+plus those you'll need for the sorting and the searching.
+
+Display a menu of the options that the user can choose from. Have the program clear the screen and return to the menu after each option is done.
+
+--Don't forget an option to exit the program.
+
+Note: 
+There should be no input from the user other than their menu choices. All the Presidential data should be hard coded.
+
+Hint: 
+You can clear the screen by simply printing endl 30-50 times. Use a loop.
+Input Validation: 
+Do not accept options not included in the menu. (A, B, C or 1, 2, 3 etc.)
+Screen Capture: 
+Screen capture should show the first 20 presidents from the default display.
+
+Note: 
+Make sure the information you are displaying is accurate. 
+Yes, there are Presidents I am not that fond of either, but that is no excuse for getting the information wrong.
+
+Warning: 
+The instructor just so happens to have his undergrad degree in U.S. History and will notice wild inaccuracies.
+
+ Sorting and Searching Rubric (1) Grading:
+		potUS_info: .CPP File
+			60 pts
+			Program runs without errors or corrections.
+			45 pts
+			Program runs, but has minor errors or needs corrections to run.
+			25 pts
+			Program needs major revisions/error correction before it will run.
+			0 pts
+			No Marks
+		potUS_info: Comments
+			20 pts
+			Proper levels of commenting.
+			Functions are given at least simple descriptions, purposes/uses of loops and conditionals are given at least simple descriptions.
+			15 pts
+			Acceptable levels of comments in most areas.
+			10pts
+			Minor commenting done; or only bare details provided.
+			0 pts
+			No Marks
+		potUS_info: Screen Capture
+			10 pts
+			Full Marks
+			0 pts
+			No Marks
+Total possible points: 90
+
+*** Please read  ***
+
+This programm will only run on Window OS
+It is important to note that:
+Not all the Presidents served full terms.
+Also, the US has/had 46 presidents but only 45 individuals served as Presidents
+this is due to President Grover Cleveland who served 2 nonconsecutive terms, i.e., he is the 22sd and 24th President
+
+Ter completion types:
+- Full Term - the President completed a full term.
+- Unfinished Term - the President did not complete a full term (passed away, assassinated, resigned).
+- Partial Term - the President was the vice president and became the President after the elected President did not finish his term.
+
+I utilized some of the information from the following website 
+https://historyinpieces.com/research/presidential-inauguration-dates
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+--------------------------
+5_functions_madlib
+--------------------------
+
+This is make - up work and is worth up to 40 points.It is NOT required.
+Points will be earned entirely at the instructor's determination of program quality.
+
+Write a program that gets words or phrases(as strings) from the user.
+You will use the variables this data is stored in to insert and replace words or phrases in the lyrics of a song or parts of a poem.
+The song or poem is of your own choice.It should be school friendly, if you need me to explain that, email / message me.
+
+You should get at least two, but no more than five, of each of the following from the user :
+
+nouns(things)
+verbs(actions)
+adjectives(description words)
+
+You will need a function to get each of these different types of words. (That brings our total function count so far to 4; these three plus main.)
+
+You will need to use a function to display the lyrics of the song as well as the name of the artist you most prefer to have sing it.
+There can be lyrical differences between different artists.Include a URL to the lyrics as a comment in this function. (This brings our function count to 5.)
+(Places like genius.com, azlyrics.com, songlyrics.com are best for this.
+	Wikipedia is a 100 % no go.I will hit you with the Wikipedia penalty if you use it.
+	Yes, even including a link to Wikipedia as a comment will invoke that penalty.)
+	Pass the data you have gotten from the user to another function that displays your madlib.
+	Examples of the output are below. (This brings our function count to 6. This is the minimum number of functions you need to get credit.)
+	Separate the original lyrics from the madlib using a line of symbols of your choice. (*&# _ - etc.)
+
+	Song / Poem Requirements :
+
+School friendly.
+Songs must be at least 1 verse plus the chorus.
+Poems should be somewhat recognizable even after the minimum of 6 items have be injected. "Somewhat" is being left to your determination.
+Do not use a haiku.
+Do not expect any rhyme scheme from whatever you pick to be preserved.
+
+*** Please read ***
+This programm will only run on Window OS
+Song :
+"Come Fly With Me"
+Frank Sinatra Lyrics
+I had it the sound track just for fun
+
+lyrics from azlyrics.com
+https ://www.azlyrics.com/lyrics/franksinatra/comeflywithme.html
+
+-----------------------------------------------------------------------------------------------------------------------------
+
 --------------------------
 6_sorting_searching_pt-1
 --------------------------
@@ -60,13 +206,13 @@ Output Example:
 	--------------------------------
 
 	Clock Radios:              30 units sold
-	Grills:                              7 units sold
-	Umbrellas:                    12 units sold
-	Patio Furniture:            10 sets sold
-	Holiday Decorations:   28 units sold
-	Candy Bars:                132 units sold
-	Garden Gnomes:          17 units sold
-	Pet Supplies:                 39 units sold
+	Grills:                     7 units sold
+	Umbrellas:                 12 units sold
+	Patio Furniture:           10 sets sold
+	Holiday Decorations:       28 units sold
+	Candy Bars:               132 units sold
+	Garden Gnomes:             17 units sold
+	Pet Supplies:              39 units sold
 
 	--------------------------------
 
