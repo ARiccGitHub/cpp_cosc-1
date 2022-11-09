@@ -84,33 +84,6 @@ Yes, there are Presidents I am not that fond of either, but that is no excuse fo
 Warning: 
 The instructor just so happens to have his undergrad degree in U.S. History and will notice wild inaccuracies.
 
- Sorting and Searching Rubric (1) Grading:
-		potUS_info: .CPP File
-			60 pts
-			Program runs without errors or corrections.
-			45 pts
-			Program runs, but has minor errors or needs corrections to run.
-			25 pts
-			Program needs major revisions/error correction before it will run.
-			0 pts
-			No Marks
-		potUS_info: Comments
-			20 pts
-			Proper levels of commenting.
-			Functions are given at least simple descriptions, purposes/uses of loops and conditionals are given at least simple descriptions.
-			15 pts
-			Acceptable levels of comments in most areas.
-			10pts
-			Minor commenting done; or only bare details provided.
-			0 pts
-			No Marks
-		potUS_info: Screen Capture
-			10 pts
-			Full Marks
-			0 pts
-			No Marks
-Total possible points: 90
-
 *** Please read  ***
 
 This programm will only run on Window OS
